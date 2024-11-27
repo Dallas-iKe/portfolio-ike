@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="border-b  border-neutral-900 pb-4">
         <motion.h2 
-        initial={{ transform: "translateY(-100px)", opacity: 0.5 }}
+        initial={{ transform: "translateY(-50px)", opacity: 0.5 }}
         whileInView={{ transform: "translateY(0px)", opacity: 1 }}
         transition={{ type: "spring", duration:5 }}
         className="my-16 text-center text-4xl">About 

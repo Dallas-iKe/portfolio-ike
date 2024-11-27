@@ -8,13 +8,20 @@ const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
-            <img className="mx-2 w-11" src={ikelogo} alt="logo" />
+            <img className="w-11" src={ikelogo} alt="logo" />
         </div>
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <div className="m-8 flex items-center justify-end gap-4 text-2xl">
+          <a href="https://www.linkedin.com/in/dallas-ike/" target="_blank">
             <FaLinkedin />
+            </a>
+
+            <a href="https://github.com/Dallas-iKe/" target="_blank">
             <FaGithub />
+            </a>
             <FaInstagram />
+            <a href="https://x.com/dallas_ikee/" target="_blank">
             <FaSquareXTwitter />
+            </a>
 
         </div>
     </nav>

@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/ikeProfile.png"
 import { motion } from "motion/react"
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
                     whileInView={{ transform: "translateX(0px)", opacity: 1 }}
                     transition={{ type: "spring", duration:1 }}
                  
-                    className="pb-8 text-4xl font-thin tracking-tight lg:text-6xl "
+                    className="pb-8 text-6xl font-thin tracking-tight lg:text-6xl "
                      >Isaac Mensah
                      </motion.h1>
                         <motion.span
@@ -21,8 +21,8 @@ const Hero = () => {
                         whileInView={{ transform: "translateX(0px)", opacity: 1 }}
                         transition={{ type: "spring", duration:2 }}
                         
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                            Full Stack Developer
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                            Web Developer
                         </motion.span>
 
                         <motion.p 

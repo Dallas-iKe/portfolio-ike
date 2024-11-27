@@ -1,9 +1,11 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
-import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
-import { FaNodeJs } from "react-icons/fa"
-import { BiLogoPostgresql } from "react-icons/bi"
+import { IoLogoJavascript } from "react-icons/io";
+import { SiPhp } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
+import { SiVitess } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 import { motion } from "motion/react"
 
 const Technologies = () => {
@@ -29,7 +31,7 @@ const Technologies = () => {
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
              className="rounded-2xl border-4 border-neutral-800 p-4">
-              <TbBrandNextjs className="text-4xl" />
+              <IoLogoJavascript className="text-4xl text-yellow-500" />
             </motion.div>
 
             <motion.div
@@ -37,7 +39,7 @@ const Technologies = () => {
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 5, repeat: Infinity, repeatType: "reverse" }}
              className="rounded-2xl border-4 border-neutral-800 p-4">
-              <SiMongodb className="text-4xl text-green-500 " />
+              <SiHtml5 className="text-4xl text-orange-600 " />
             </motion.div>
 
             <motion.div 
@@ -45,7 +47,7 @@ const Technologies = () => {
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 6, repeat: Infinity, repeatType: "reverse" }}
             className="rounded-2xl border-4 border-neutral-800 p-4">
-              <DiRedis className="text-4xl text-red-700 " />
+              <SiTailwindcss className="text-4xl text-sky-600 " />
             </motion.div>
 
             <motion.div
@@ -53,7 +55,15 @@ const Technologies = () => {
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 7, repeat: Infinity, repeatType: "reverse" }}
             className="rounded-2xl border-4 border-neutral-800 p-4">
-              <FaNodeJs className="text-4xl text-green-500 " />
+              <SiPhp className="text-4xl text-neutral-100 " />
+              </motion.div>
+
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 8, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <SiCss3 className="text-4xl text-sky-700 " />
             </motion.div>
 
             <motion.div
@@ -61,7 +71,14 @@ const Technologies = () => {
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 8, repeat: Infinity, repeatType: "reverse" }}
             className="rounded-2xl border-4 border-neutral-800 p-4">
-              <BiLogoPostgresql className="text-4xl text-sky-700 " />
+              <SiVitess className="text-4xl text-purple-700 " />
+            </motion.div>
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 8, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <FaGitAlt className="text-4xl text-orange-600 " />
             </motion.div>
         </div>
     </motion.div>
