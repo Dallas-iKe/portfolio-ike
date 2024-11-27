@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-10 lg:mb-20 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
             <img className="w-11" src={ikelogo} alt="logo" />
         </div>

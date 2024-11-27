@@ -17,14 +17,14 @@ export const EXPERIENCES = [
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Development Intern",
+    role: "Web Development Intern",
     company: "Emerge Technogy",
     description: `Worked on designing and building user interfaces for web applications using React.js and TailwindCSS. Partnered with backend developers to integrate APIs and optimize application performance. Focused on creating mobile-first designs and ensuring accessibility standards.`,
     technologies: ["HTML", "CSS", "React.js", "TailwindCSS"],
   },
   {
     year: "2021 - 2022",
-    role: "Junior Web Development Intern",
+    role: "Web Development Intern",
     company: "BetechConnected",
     description: `Supported the team in developing web applications using HTML, CSS, and JavaScript. Built reusable components and implemented interactive features to enhance user engagement. Participated in code reviews and contributed to debugging and troubleshooting processes.`,
     technologies: ["HTML", "CSS", "JavaScript", "Git"],
