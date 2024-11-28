@@ -55,7 +55,7 @@ export const PROJECTS = [
     technologies: ["React", "TailwindCSS", "JavaScript", "Vite"],
   },
   {
-    title: "Employee Transport Management System",
+    title: "Transport Management System",
     image: project4,
     description:
       "The Employee Transport Management System is a web-based application designed to streamline and manage the pick-up and drop-off services provided by organizations to their employees.",
