@@ -31,7 +31,9 @@ const Projects = () => {
             whileInView={{ transform: "translateX(0px)", opacity: 1 }}
             transition={{ type: "spring", duration:3 }}
             className="w-full max-w-xl lg:3/4">
+              <a href="https://github.com/Dallas-iKe/" target="_blank">
             <h6 className="mb-2 font-semibold">{project.title}</h6>
+            </a>
             <p className="mb-4 text-neutral-400">{project.description}</p>
             {project.technologies.map((tech, index) =>(
               <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-sm text-purple-900">
