@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a dedicated web developer with skills in building dynamic and visually appealing web applications. With 3 years of practical experience, I have refined my expertise in modern front-end technologies, including JavaScript, React, Vite, PHP, CSS, TailwindCSS, and HTML. My passion lies in creating seamless user interfaces and responsive designs that prioritize functionality and aesthetics. I aim to leverage my skills to develop innovative solutions that enhance user engagement and drive business success.`;
 
@@ -33,6 +34,13 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
+  {
+    title: "eCommerce App",
+    image: project5,
+    description:
+      "This is an eCommerce application that allows users to browse products, add items to their cart, and proceed to checkout. The application includes features such as product search, user authentication, and order management.",
+    technologies: ["React", "JavaScript", "CSS", "TailwindCSS",],
+  },
   {
     title: "Grocery List App",
     image: project1,
