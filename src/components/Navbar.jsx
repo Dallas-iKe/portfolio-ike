@@ -1,8 +1,5 @@
 import ikelogo from "../assets/ikeLogo.png";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedin, FaInstagram, FaSquareXTwitter, FaGithub  } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -15,9 +12,15 @@ const Navbar = () => {
             <FaLinkedin />
             </a>
 
-            <a href="https://github.com/Dallas-iKe/" target="_blank">
-            <FaGithub />
-            </a>
+            <div className="relative group">
+              <a href="https://github.com/Dallas-iKe/" className="flex items-center justify-center">
+                <FaGithub />
+              </a>
+              <div className="absolute hidden group-hover:block bg-transparent shadow-lg rounded-md mt-0.5 text-sm w-40 -ml-14 flex">
+                <a href="https://github.com/isaacmensahx/" target="_blank" className="block px-4 py-2 text-white hover:bg-[#67E8F9] hover:text-black">Work GitHub</a>
+                <a href="https://github.com/Dallas-iKe/" target="_blank" className="block px-4 py-2 text-white hover:bg-[#67E8F9] hover:text-black">Personal GitHub</a>
+              </div>
+            </div>
             <FaInstagram />
             <a href="https://x.com/dallas_ikee/" target="_blank">
             <FaSquareXTwitter />

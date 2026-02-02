@@ -7,6 +7,11 @@ import { SiHtml5 } from "react-icons/si";
 import { SiVitess } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { motion } from "motion/react"
+import { SiTypescript } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiDrizzle } from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -22,23 +27,63 @@ const Technologies = () => {
             initial={{ transform: "translateY(-10px)" }}
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 3, repeat: Infinity, repeatType: "reverse" }}
-             className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="rounded-2xl border-4 border-neutral-800 p-4">
               <RiReactjsLine className="text-4xl text-cyan-400 " />
             </motion.div>
-            
+
             <motion.div
             initial={{ transform: "translateY(-10px)" }}
             whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
-             className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="rounded-2xl border-4 border-neutral-800 p-4">
               <IoLogoJavascript className="text-4xl text-yellow-500" />
             </motion.div>
 
             <motion.div
             initial={{ transform: "translateY(-10px)" }}
             whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <SiTypescript className="text-4xl text-blue-500" />
+            </motion.div>
+
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <FaNodeJs className="text-4xl text-green-500" />
+            </motion.div>
+
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <SiExpress className="text-4xl text-white-500" />
+            </motion.div>
+
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <SiMysql className="text-4xl text-blue-300" />
+            </motion.div>
+
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
+            transition={{ type: "spring", duration: 4, repeat: Infinity, repeatType: "reverse" }}
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+              <SiDrizzle className="text-4xl text-green-300" />
+            </motion.div>
+
+            <motion.div
+            initial={{ transform: "translateY(-10px)" }}
+            whileInView={{ transform: "translateY(10px)" }}
             transition={{ type: "spring", duration: 5, repeat: Infinity, repeatType: "reverse" }}
-             className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="rounded-2xl border-4 border-neutral-800 p-4">
               <SiHtml5 className="text-4xl text-orange-600 " />
             </motion.div>
 

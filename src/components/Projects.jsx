@@ -8,7 +8,7 @@ const Projects = () => {
       initial={{ transform: "translateY(-100px)", opacity: 0.5 }}
       whileInView={{ transform: "translateY(0px)", opacity: 1 }}
       transition={{ type: "spring", duration:3 }}
-      className="my-20 text-center text-4xl">Projects
+      className="my-20 text-center text-4xl">Open Source Projects
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (

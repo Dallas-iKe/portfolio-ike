@@ -2,7 +2,7 @@ import { EXPERIENCES } from "../constants"
 import { motion } from "motion/react"
 
 const Experience = () => {
-  return (
+return (
     <div className="border-b border-neutral-900 pb-4">
         <motion.h2
         initial={{ transform: "translateY(-100px)", opacity: 0.5 }}
@@ -43,7 +43,7 @@ const Experience = () => {
             ))}
         </div>
     </div>
-  )
+)
 }
 
 export default Experience

@@ -4,17 +4,24 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a dedicated web developer with skills in building dynamic and visually appealing web applications. With 3 years of practical experience, I have refined my expertise in modern front-end technologies, including JavaScript, React, Vite, PHP, CSS, TailwindCSS, and HTML. My passion lies in creating seamless user interfaces and responsive designs that prioritize functionality and aesthetics. I aim to leverage my skills to develop innovative solutions that enhance user engagement and drive business success.`;
+export const HERO_CONTENT = `I am a dedicated fullstack developer with skills in building scalable and fully functional web applications. With 5 years of practical experience, I have refined my expertise in modern frontend and backened technologies, including JavaScript, Typescript, ReactJS, Vite, NodeJS, ExpressJS, MySQL, PHP, Drizzle ORM, CSS, TailwindCSS, and HTML. My passion lies in creating seamless user application and responsive designs that prioritize functionality and aesthetics. I aim to leverage my skills to develop innovative solutions that enhance user engagement and drive business success.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a passion for building efficient and user-friendly web applications. With 3 years of professional experience, I have honed my skills in technologies such as JavaScript, React, Vite, PHP, CSS, TailwindCSS, and HTML. My journey in web development started with a deep curiosity about how the web works, evolving into a fulfilling career where I embrace new challenges and constantly seek to improve. I thrive in collaborative environments and enjoy tackling complex problems to deliver high-quality, impactful solutions. Beyond writing code, I love exploring emerging technologies, attending bootcamps to sharpen my skills, staying active, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile fullstack developer with a passion for building efficient and user-friendly applications. With 5 years of professional experience, I have honed my skills in Test-Driven Development, Component Driven Development, Dynamic Development (lazing loading, component registry, config driven rendering, React Rendering, single page, card and modal architecture etc), Monorepos development, API-First approach, Agile Data Method, Agile Analytics, Agile Design, Agile Architecture, Agile Analysis, Agile Requirements,  My journey in fullstack development started with a deep curiosity about how the web works, evolving into a fulfilling career where I embrace new challenges and constantly seek to improve. I thrive in collaborative environments and enjoy tackling complex problems to deliver high-quality, impactful solutions. Beyond writing code, I love exploring emerging technologies, attending bootcamps to sharpen my skills, staying active, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
+    {
+    year: "2025 - Present",
+    role: "Fullstack Agile Developer",
+    company: "Xcelxs",
+    description: `Contributed to the development and maintenance of scalable web applications using TypeScript, React.js (Vite), TailwindCSS, Node.js, Express.js, MySQL, and Drizzle ORM, applying Test-Driven Development (TDD), Component-Driven Development (CDD), and a Dynamic, config-driven architecture (lazy loading, component registry, config-based rendering, card/modal, etc).Worked collaboratively with UI/UX teams through Agile Design and Agile Architecture practices to implement clean, reusable UI and business components.Supported API-First development, backend integration, and analytics pipelines using Agile Data and Agile Analytics methods, while adhering to core engineering principles including SOLID, DRY, KISS, JIT, and clean architectural standards for maintainability and scalability.`,
+    technologies: ["TypeScript", "FrontEnd", "BackEnd", "API Integration", "CI/CD", "TDD"],
+  },
   {
-    year: "2024 - Present",
-    role: "Web Development Intern",
+    year: "2024",
+    role: "Fullstack Developer Contract",
     company: "Accra Tech Labs",
-    description: `Assisted in the development and maintenance of web applications using JavaScript, React.js, and Vite. Collaborated with the design team to implement responsive UI components and improve user experience. Contributed to the integration of APIs for seamless data communication.`,
-    technologies: ["JavaScript", "React.js", "Vite", "CSS"],
+    description: `Assisted in the development and maintenance of web applications using Typescript, React.js + Vite, TailwindCSS, NodeJs, ExpressJS, MySQL, Drizzle ORM,  etc. Collaborated with the UI/UX team to implement UI and Business components and improve user experience. Contributed to the integration of APIs and backend for functionalities.`,
+    technologies: ["TypeScript", "FrontEnd", "BackEnd", "API Integration"],
   },
   {
     year: "2022 - 2023",

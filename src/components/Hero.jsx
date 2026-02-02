@@ -3,7 +3,7 @@ import profilePic from "../assets/ikeProfile.png"
 import { motion } from "motion/react"
 
 const Hero = () => {
-  return (
+return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
@@ -13,15 +13,15 @@ const Hero = () => {
                     whileInView={{ transform: "translateX(0px)", opacity: 1 }}
                     transition={{ type: "spring", duration:1 }}
                     className="pb-8 text-5xl font-thin tracking-tight lg:text-6xl "
-                     >Isaac Mensah
-                     </motion.h1>
+                    >Isaac Mensah
+                    </motion.h1>
 
                         <motion.span
                         initial={{ transform: "translateX(-100px)", opacity: 0.5 }}
                         whileInView={{ transform: "translateX(0px)", opacity: 1 }}
                         transition={{ type: "spring", duration:2 }}
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            Web Developer
+                            FullStack Developer
                         </motion.span>
 
                         <motion.p 
@@ -43,7 +43,7 @@ const Hero = () => {
             </div>
         </div>
     </div>
-  )
+)
 }
 
 export default Hero
